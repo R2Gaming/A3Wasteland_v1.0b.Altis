@@ -1,0 +1,10 @@
+	nrpEVT= 0;
+	nrpPPM= 0;
+	nrpNAF= 0;
+	nrpDUM= 0;
+	nrpCHEL=0;
+	r=1; 
+    _timertrg = createTrigger ["EmptyDetector",[15370,16076,0]];
+	_timertrg setTriggerArea [0,0,0,false];
+	_timertrg setTriggerTimeout [400, 400, 400, false];
+	_timertrg setTriggerStatements["r==1", "null=[] execVM 'M1\act.sqf'", "null=[] execVM 'M1\deact.sqf'"]; 
