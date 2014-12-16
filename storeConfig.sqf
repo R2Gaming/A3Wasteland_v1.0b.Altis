@@ -39,7 +39,12 @@ smgArray = compileFinal str
 [
 	["PDW2000 SMG", "hgun_PDW2000_F", 100],
 	["Sting SMG", "SMG_02_F", 125],
-	["Vermin SMG", "SMG_01_F", 125]
+	["Vermin SMG", "SMG_01_F", 125],
+	["MP5", "arifle_mas_mp5", 700],
+	["MP5 Underwater", "arifle_mas_mp5sd_ds", 800],
+	["Bizon SMG", "arifle_mas_bizon", 650],
+	["M1014 Shotgun", "arifle_mas_m1014", 650],
+	["Saiga 12 Shotgun", "arifle_mas_saiga", 650]
 ];
 
 rifleArray = compileFinal str
@@ -50,15 +55,30 @@ rifleArray = compileFinal str
 	//A2 Assault Rifles
 	["AK74M", "arifle_mas_ak_74m_sf", 1000],
 	["AK74MGL", "arifle_mas_ak_74m_gl", 1200],
+	["AKMS", "arifle_mas_akms", 1000],
 	["M24", "srifle_mas_m24", 1500],
-	["MP5", "arifle_mas_mp5", 700],
-	["MP5 Underwater", "arifle_mas_mp5sd_ds", 800],
 	["M107", "srifle_mas_m107", 1800],
 	["M110", "srifle_mas_m110", 2800],
 	["HK417", "srifle_mas_hk417", 2800],
 	["SR25", "srifle_mas_sr25", 2800],
 	["EBR", "srifle_mas_ebr", 2800],
-	
+	["HK416", "srifle_mas_hk416", 2800],
+	["HK416 GL", "srifle_mas_hk416_gl", 2800],
+	["M4", "arifle_mas_m4", 2800],
+	["M4", "arifle_mas_m4_m203", 2800],
+	["M16", "arifle_mas_m16", 2800],
+	["L119A1", "arifle_mas_l119", 2800],
+	["L119A1 GL", "arifle_mas_l119_m203", 2800],
+	["MK16", "arifle_mas_mk16", 2800],
+	["MK16 GL", "arifle_mas_mk16_gl", 2800],
+	["MK16 Long", "arifle_mas_mk16_l", 2800],
+	["MK17", "arifle_mas_mk17", 2800],
+	["MK17 GL", "arifle_mas_mk17_gl", 2800],
+	["G3", "arifle_mas_g3", 2800],
+	["G3 GL", "arifle_mas_g3_m203", 2800],
+	["G3S", "arifle_mas_g3s", 2800],
+	["G3S GL", "arifle_mas_g3_m203", 2800],
+	["Fal", "arifle_mas_fal", 2800],
 	
 	// Assault Rifles	
 	["Mk20 Carbine", "arifle_Mk20C_plain_F", 150],
@@ -109,7 +129,6 @@ lmgArray = compileFinal str
 	["MK48 LMG", "LMG_mas_Mk48_F", 650],
 	["M240 LMG", "LMG_mas_m240_F", 650],
 	["MG3 LMG", "LMG_mas_mg3_F", 650],
-	["M200 LMG", "LMG_mas_m200_F", 650],
 	["M249 LMG", "LMG_mas_m249_F", 650]
 	
 	
@@ -117,8 +136,7 @@ lmgArray = compileFinal str
 
 shotgunArray = compileFinal str
 [
-	["M1014", "arifle_mas_m1014", 650],
-	["Saiga 12", "arifle_mas_saiga", 650]
+ // Not in use
 ];
 
 launcherArray = compileFinal str
@@ -279,6 +297,7 @@ ammoArray = compileFinal str
 	["20Rnd 762x51 Tracer", "20Rnd_mas_762x51_T_Stanag", 25],
 	["5Rnd 127x99", "5Rnd_mas_127x99_Stanag", 50],
 	["100Rnd 762x51", "100Rnd_mas_762x51_Stanag", 50],
+	["30rnd 762x39", "30Rnd_mas_762x39_mag", 20],
 	
 	// A2 Ammo Pistols
 	["8Rnd 9x18", "8Rnd_mas_9x18_Mag", 10],
