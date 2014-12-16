@@ -303,7 +303,7 @@ ammoArray = compileFinal str
 	["150Rnd 762x51", "150Rnd_762x51_Box", 10],
 	["150Rnd 762x51 Tracer", "150Rnd_762x51_Box_Tracer", 10],
 	["200Rnd 556x45", "200Rnd_mas_556x45_Stanag", 10],
-	["200Rnd 556x45 Tracer", "200Rnd_mas_556x45_T_Stanag", 10],
+	["200Rnd 556x45 Tracer", "200Rnd_mas_556x45_T_Stanag", 10]
 	
 	
 	
