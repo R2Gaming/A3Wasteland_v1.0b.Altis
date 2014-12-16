@@ -135,8 +135,8 @@ launcherArray = compileFinal str
 	["M136", "mas_launch_M136_F", 600],
 	["RPG7", "mas_launch_RPG7_F", 600],
 	["RPG18", "mas_launch_RPG18_F", 600],
-	["Stinger", "mas_launch_RPG18_F", 600],
-	["strela", "mas_launch_RPG18_F", 600]
+	["Stinger", "mas_launch_Stinger_F", 600],
+	["strela", "mas_launch_Strela_F", 600]
 	
 ];
 
