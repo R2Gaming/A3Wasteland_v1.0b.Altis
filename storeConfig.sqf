@@ -36,6 +36,7 @@ rifleArray = compileFinal str
 	["SDAR Underwater Rifle", "arifle_SDAR_F", 100],
 
 	// Assault Rifles
+	["AK74M", "arifle_mas_ak_74m_sf", 1000],
 	["Mk20 Carbine", "arifle_Mk20C_plain_F", 150],
 	["Mk20 Carbine (Camo)", "arifle_Mk20C_F", 175],
 	["Mk20 Rifle", "arifle_Mk20_plain_F", 200],
