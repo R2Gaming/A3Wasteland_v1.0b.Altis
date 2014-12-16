@@ -117,7 +117,8 @@ lmgArray = compileFinal str
 
 shotgunArray = compileFinal str
 [
-	// Currently unused
+	["M1014", "arifle_mas_m1014", 650],
+	["Saiga 12", "arifle_mas_saiga", 650]
 ];
 
 launcherArray = compileFinal str
@@ -303,7 +304,13 @@ ammoArray = compileFinal str
 	["150Rnd 762x51", "150Rnd_762x51_Box", 10],
 	["150Rnd 762x51 Tracer", "150Rnd_762x51_Box_Tracer", 10],
 	["200Rnd 556x45", "200Rnd_mas_556x45_Stanag", 10],
-	["200Rnd 556x45 Tracer", "200Rnd_mas_556x45_T_Stanag", 10]
+	["200Rnd 556x45 Tracer", "200Rnd_mas_556x45_T_Stanag", 10],
+	
+	//A2 Ammo Shotgun
+	["10Rnd Slugs", "10Rnd_mas_12Gauge_Slug", 10],
+	["10Rnd Pellets", "10Rnd_mas_12Gauge_Pellets", 10],
+	["7Rnd Slugs", "7Rnd_mas_12Gauge_Slug", 10],
+	["7Rnd Pellets", "7Rnd_mas_12Gauge_Pellets", 10]
 	
 	
 	
