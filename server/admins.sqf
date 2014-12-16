@@ -35,13 +35,13 @@ lowAdmins =
 // High Administrators: manage & spectate players, remove hacked vehicles, show player tags
 highAdmins = 
 [
-  "76561198039189627","76561198001093317"	// Put player UIDs here
+  "76561198039189627"	// Put player UIDs here
 ];
 
 // Server Owners: access to everything, including god mode, money, guns, and vehicles
 serverOwners = 
 [
-  "76561197961826672","76561197970667531","76561198032344162"	// Put player UIDs here
+  "76561197961826672","76561197970667531","76561198032344162","76561198001093317"	// Put player UIDs here
 ];
 
 	/********************************************************/
