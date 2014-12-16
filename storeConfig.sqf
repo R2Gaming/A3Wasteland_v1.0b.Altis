@@ -35,8 +35,20 @@ rifleArray = compileFinal str
 	// Underwater Gun
 	["SDAR Underwater Rifle", "arifle_SDAR_F", 100],
 
-	// Assault Rifles
+	//A2 Assault Rifles
 	["AK74M", "arifle_mas_ak_74m_sf", 1000],
+	["AK74MGL", "arifle_mas_ak_74m_gl", 1200],
+	["M24", "srifle_mas_m24", 1500],
+	["MP5", "arifle_mas_mp5", 700],
+	["MP5 Underwater", "arifle_mas_mp5sd_ds", 800],
+	["M107", "srifle_mas_m107", 1800],
+	["M110", "srifle_mas_m110", 2800],
+	["HK417", "srifle_mas_hk417", 2800],
+	["SR25", "srifle_mas_sr25", 2800],
+	["EBR", "srifle_mas_ebr", 2800],
+	
+	
+	// Assault Rifles	
 	["Mk20 Carbine", "arifle_Mk20C_plain_F", 150],
 	["Mk20 Carbine (Camo)", "arifle_Mk20C_F", 175],
 	["Mk20 Rifle", "arifle_Mk20_plain_F", 200],
@@ -77,7 +89,8 @@ lmgArray = compileFinal str
 	["MX SW LMG", "arifle_MX_SW_F", 300],
 	["MX SW LMG (Black)", "arifle_MX_SW_Black_F", 325],
 	["Mk200 LMG", "LMG_Mk200_F", 375],
-	["Zafir LMG", "LMG_Zafir_F", 450]
+	["Zafir LMG", "LMG_Zafir_F", 450],
+	["MK48 LMG", "LMG_mas_Mk48_F", 650]
 ];
 
 shotgunArray = compileFinal str
@@ -168,6 +181,16 @@ ammoArray = compileFinal str
 	["5.56mm 30Rnd Tracer (Green) Mag", "30Rnd_556x45_Stanag_Tracer_Green", 15],
 	["5.56mm 30Rnd Tracer (Yellow) Mag", "30Rnd_556x45_Stanag_Tracer_Yellow", 15],
 	["5.56mm 30Rnd Tracer (Red) Mag", "30Rnd_556x45_Stanag_Tracer_Red", 15],
+	
+	["5.56mm x 39 30Rnd", "30Rnd_mas_545x39_mag", 15],	
+	["5.56mm x 39 30Rnd Tracer", "30Rnd_mas_545x39_T_mag", 20],
+	["5Rnd 762x51", "5Rnd_mas_762x51_Stanag", 20],
+	["5Rnd 762x51 Tracer", "5Rnd_mas_762x51_T_Stanag", 25],
+	["20Rnd 762x51", "20Rnd_mas_762x51_Stanag", 20],
+	["20Rnd 762x51 Tracer", "20Rnd_mas_762x51_T_Stanag", 25],
+	["5Rnd 127x99", "5Rnd_mas_127x99_Stanag", 50],
+	["100Rnd 762x51", "100Rnd_mas_762x51_Stanag", 50],
+	
 	["6.5mm 30Rnd STANAG Mag", "30Rnd_65x39_caseless_mag", 20],
 	["6.5mm 30Rnd Tracer (Red) Mag", "30Rnd_65x39_caseless_mag_Tracer", 15],
 	["6.5mm 30Rnd Caseless Mag", "30Rnd_65x39_caseless_green", 20],
