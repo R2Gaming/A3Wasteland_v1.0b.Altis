@@ -20,13 +20,24 @@ pistolArray = compileFinal str
 	["Rook-40 Pistol", "hgun_Rook40_F", 50],
 	["ACP-C2 Pistol", "hgun_ACPC2_F", 75],
 	["Zubr Revolver", "hgun_Pistol_heavy_02_F", 75],
-	["4-Five Pistol", "hgun_Pistol_heavy_01_F", 100]
+	["4-Five Pistol", "hgun_Pistol_heavy_01_F", 100],
+	// A2 Pistols
+	["Makarov", "hgun_mas_mak_F", 50],
+	["MP-443", "hgun_mas_grach_F", 50],
+	["45ACP", "hgun_mas_acp_F", 50],
+	["USP", "hgun_mas_usp_F", 50],
+	["Glock 45", "hgun_mas_glocksf_F", 50],
+	["M9", "hgun_mas_m9_F", 50],
+	["BHP", "hgun_mas_bhp_F", 50],
+	["Glock 9mm", "hgun_mas_glock_F", 50],
+	["Skorpion", "hgun_mas_sa61_F", 50],
+	["Micro Uzi", "hgun_mas_uzi_F", 50]
+	
 ];
 
 smgArray = compileFinal str
 [
 	["PDW2000 SMG", "hgun_PDW2000_F", 100],
-	["MP5 Underwater", "arifle_mas_mp5sd_ds", 800],
 	["Sting SMG", "SMG_02_F", 125],
 	["Vermin SMG", "SMG_01_F", 125]
 ];
@@ -39,7 +50,9 @@ rifleArray = compileFinal str
 	//A2 Assault Rifles
 	["AK74M", "arifle_mas_ak_74m_sf", 1000],
 	["AK74MGL", "arifle_mas_ak_74m_gl", 1200],
+	["M24", "srifle_mas_m24", 1500],
 	["MP5", "arifle_mas_mp5", 700],
+	["MP5 Underwater", "arifle_mas_mp5sd_ds", 800],
 	["M107", "srifle_mas_m107", 1800],
 	["M110", "srifle_mas_m110", 2800],
 	["HK417", "srifle_mas_hk417", 2800],
@@ -75,8 +88,6 @@ rifleArray = compileFinal str
 	["MXM Rifle (Black)", "arifle_MXM_Black_F", 325],
 	["DMR Rifle", "srifle_DMR_01_F", 400],
 	["Mk18 ABR Rifle", "srifle_EBR_F", 450],
-	
-	["M24", "srifle_mas_m24", 1500],
 
 	// Sniper Rifles
 	["M320 LRR Sniper", "srifle_LRR_SOS_F", 1000],
@@ -116,7 +127,7 @@ launcherArray = compileFinal str
 	["RPG7", "mas_launch_RPG7_F", 600],
 	["RPG18", "mas_launch_RPG18_F", 600],
 	["Stinger", "mas_launch_RPG18_F", 600],
-	["", "mas_launch_RPG18_F", 600],
+	["strela", "mas_launch_RPG18_F", 600]
 	
 ];
 
@@ -257,10 +268,19 @@ ammoArray = compileFinal str
 	["20Rnd 762x51", "20Rnd_mas_762x51_Stanag", 20],
 	["20Rnd 762x51 Tracer", "20Rnd_mas_762x51_T_Stanag", 25],
 	["5Rnd 127x99", "5Rnd_mas_127x99_Stanag", 50],
-	["100Rnd 762x51", "100Rnd_mas_762x51_Stanag", 50]
+	["100Rnd 762x51", "100Rnd_mas_762x51_Stanag", 50],
 	
 	// A2 Ammo Pistols
-	
+	["8Rnd 9x18", "8Rnd_mas_9x18_Mag", 10],
+	["12Rnd 45ACP", "12Rnd_mas_45acp_Mag", 10],
+	["10Rnd 45ACP", "10Rnd_mas_45acp_Mag", 10],
+	["8Rnd 45ACP", "8Rnd_mas_45_Mag", 10],
+	["17Rnd 9mm", "17Rnd_mas_9x21_Mag", 10],
+	["16Rnd 9mm", "16Rnd_mas_9x21_Mag", 10],
+	["15Rnd 9mm", "15Rnd_mas_9x21_Mag", 10],
+	["13Rnd 9mm", "13Rnd_mas_9x21_Mag", 10],
+	["20Rnd 765x17", "20Rnd_mas_765x17_Mag", 10],
+	["25Rnd 9x19", "25Rnd_mas_9x19_Mag", 10]
 	
 	// A2 Ammo LMG
 	
