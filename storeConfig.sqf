@@ -26,6 +26,7 @@ pistolArray = compileFinal str
 smgArray = compileFinal str
 [
 	["PDW2000 SMG", "hgun_PDW2000_F", 100],
+	["MP5 Underwater", "arifle_mas_mp5sd_ds", 800],
 	["Sting SMG", "SMG_02_F", 125],
 	["Vermin SMG", "SMG_01_F", 125]
 ];
@@ -38,9 +39,7 @@ rifleArray = compileFinal str
 	//A2 Assault Rifles
 	["AK74M", "arifle_mas_ak_74m_sf", 1000],
 	["AK74MGL", "arifle_mas_ak_74m_gl", 1200],
-	["M24", "srifle_mas_m24", 1500],
 	["MP5", "arifle_mas_mp5", 700],
-	["MP5 Underwater", "arifle_mas_mp5sd_ds", 800],
 	["M107", "srifle_mas_m107", 1800],
 	["M110", "srifle_mas_m110", 2800],
 	["HK417", "srifle_mas_hk417", 2800],
@@ -76,6 +75,8 @@ rifleArray = compileFinal str
 	["MXM Rifle (Black)", "arifle_MXM_Black_F", 325],
 	["DMR Rifle", "srifle_DMR_01_F", 400],
 	["Mk18 ABR Rifle", "srifle_EBR_F", 450],
+	
+	["M24", "srifle_mas_m24", 1500],
 
 	// Sniper Rifles
 	["M320 LRR Sniper", "srifle_LRR_SOS_F", 1000],
