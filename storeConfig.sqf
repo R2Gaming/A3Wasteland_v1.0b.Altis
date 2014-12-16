@@ -129,7 +129,7 @@ launcherArray = compileFinal str
 	["Titan MPRL Compact (Olive)", "launch_I_Titan_short_F", 500],
 	["Titan MPRL AA (Desert)", "launch_Titan_F", 600],
 	["Titan MPRL AA (Hex)", "launch_O_Titan_F", 600],
-	["Titan MPRL AA (Digi)", "launch_I_Titan_F", 600]
+	["Titan MPRL AA (Digi)", "launch_I_Titan_F", 600],
 	// A2 Launchers
 	["Maws", "mas_launch_maaws_F", 600],
 	["M136", "mas_launch_M136_F", 600],
