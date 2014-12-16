@@ -256,7 +256,7 @@ ammoArray = compileFinal str
 	["20Rnd 762x51", "20Rnd_mas_762x51_Stanag", 20],
 	["20Rnd 762x51 Tracer", "20Rnd_mas_762x51_T_Stanag", 25],
 	["5Rnd 127x99", "5Rnd_mas_127x99_Stanag", 50],
-	["100Rnd 762x51", "100Rnd_mas_762x51_Stanag", 50],
+	["100Rnd 762x51", "100Rnd_mas_762x51_Stanag", 50]
 	
 	// A2 Ammo Pistols
 	
