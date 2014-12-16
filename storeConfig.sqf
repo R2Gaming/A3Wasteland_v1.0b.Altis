@@ -102,7 +102,16 @@ lmgArray = compileFinal str
 	["MX SW LMG (Black)", "arifle_MX_SW_Black_F", 325],
 	["Mk200 LMG", "LMG_Mk200_F", 375],
 	["Zafir LMG", "LMG_Zafir_F", 450],
-	["MK48 LMG", "LMG_mas_Mk48_F", 650]
+	// A2 LMG 
+	["PKM LMG", "LMG_mas_pkm_F", 650],
+	["RPK LMG", "LMG_mas_rpk_F", 650],
+	["M72 LMG", "LMG_mas_m72_F", 650],
+	["MK48 LMG", "LMG_mas_Mk48_F", 650],
+	["M240 LMG", "LMG_mas_m240_F", 650],
+	["MG3 LMG", "LMG_mas_mg3_F", 650],
+	["M200 LMG", "LMG_mas_m200_F", 650],
+	["M249 LMG", "LMG_mas_m249_F", 650]
+	
 	
 ];
 
@@ -280,9 +289,21 @@ ammoArray = compileFinal str
 	["15Rnd 9mm", "15Rnd_mas_9x21_Mag", 10],
 	["13Rnd 9mm", "13Rnd_mas_9x21_Mag", 10],
 	["20Rnd 765x17", "20Rnd_mas_765x17_Mag", 10],
-	["25Rnd 9x19", "25Rnd_mas_9x19_Mag", 10]
+	["25Rnd 9x19", "25Rnd_mas_9x19_Mag", 10],
 	
 	// A2 Ammo LMG
+	["100Rnd 762x54", "100Rnd_mas_762x54_mag", 10],
+	["100Rnd 762x54 Tracer", "100Rnd_mas_762x54_T_mag", 10],
+	["100Rnd 545x39", "100Rnd_mas_545x39_mag", 10],
+	["100Rnd 545x39 Tracer", "100Rnd_mas_545x39_T_mag", 10],
+	["100Rnd 762x39", "100Rnd_mas_762x39_mag", 10],
+	["100Rnd 762x39 Tracer", "100Rnd_mas_762x39_T_mag", 10],
+	["100Rnd 762x51", "100Rnd_mas_762x51_Stanag", 10],
+	["100Rnd 762x51 Tracer", "100Rnd_mas_762x51_T_Stanag", 10],
+	["150Rnd 762x51", "150Rnd_762x51_Box", 10],
+	["150Rnd 762x51 Tracer", "150Rnd_762x51_Box_Tracer", 10],
+	["200Rnd 556x45", "200Rnd_mas_556x45_Stanag", 10],
+	["200Rnd 556x45 Tracer", "200Rnd_mas_556x45_T_Stanag", 10],
 	
 	
 	
