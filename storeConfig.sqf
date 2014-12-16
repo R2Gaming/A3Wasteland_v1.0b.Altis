@@ -91,6 +91,7 @@ lmgArray = compileFinal str
 	["Mk200 LMG", "LMG_Mk200_F", 375],
 	["Zafir LMG", "LMG_Zafir_F", 450],
 	["MK48 LMG", "LMG_mas_Mk48_F", 650]
+	
 ];
 
 shotgunArray = compileFinal str
@@ -108,6 +109,14 @@ launcherArray = compileFinal str
 	["Titan MPRL AA (Desert)", "launch_Titan_F", 600],
 	["Titan MPRL AA (Hex)", "launch_O_Titan_F", 600],
 	["Titan MPRL AA (Digi)", "launch_I_Titan_F", 600]
+	// A2 Launchers
+	["Maws", "mas_launch_maaws_F", 600],
+	["M136", "mas_launch_M136_F", 600],
+	["RPG7", "mas_launch_RPG7_F", 600],
+	["RPG18", "mas_launch_RPG18_F", 600],
+	["Stinger", "mas_launch_RPG18_F", 600],
+	["", "mas_launch_RPG18_F", 600],
+	
 ];
 
 allGunStoreFirearms = compileFinal str (call pistolArray + call smgArray + call rifleArray + call lmgArray + call shotgunArray + call launcherArray);
@@ -182,15 +191,6 @@ ammoArray = compileFinal str
 	["5.56mm 30Rnd Tracer (Yellow) Mag", "30Rnd_556x45_Stanag_Tracer_Yellow", 15],
 	["5.56mm 30Rnd Tracer (Red) Mag", "30Rnd_556x45_Stanag_Tracer_Red", 15],
 	
-	["5.56mm x 39 30Rnd", "30Rnd_mas_545x39_mag", 15],	
-	["5.56mm x 39 30Rnd Tracer", "30Rnd_mas_545x39_T_mag", 20],
-	["5Rnd 762x51", "5Rnd_mas_762x51_Stanag", 20],
-	["5Rnd 762x51 Tracer", "5Rnd_mas_762x51_T_Stanag", 25],
-	["20Rnd 762x51", "20Rnd_mas_762x51_Stanag", 20],
-	["20Rnd 762x51 Tracer", "20Rnd_mas_762x51_T_Stanag", 25],
-	["5Rnd 127x99", "5Rnd_mas_127x99_Stanag", 50],
-	["100Rnd 762x51", "100Rnd_mas_762x51_Stanag", 50],
-	
 	["6.5mm 30Rnd STANAG Mag", "30Rnd_65x39_caseless_mag", 20],
 	["6.5mm 30Rnd Tracer (Red) Mag", "30Rnd_65x39_caseless_mag_Tracer", 15],
 	["6.5mm 30Rnd Caseless Mag", "30Rnd_65x39_caseless_green", 20],
@@ -237,7 +237,34 @@ ammoArray = compileFinal str
 	["40mm 3Rnd Flares (Green)", "3Rnd_UGL_FlareGreen_F", 50],
 	["40mm 3Rnd Flares (Yellow)", "3Rnd_UGL_FlareYellow_F", 50],
 	["40mm 3Rnd Flares (Red)", "3Rnd_UGL_FlareRed_F", 50],
-	["40mm 3Rnd Flares (IR)", "3Rnd_UGL_FlareCIR_F", 50]
+	["40mm 3Rnd Flares (IR)", "3Rnd_UGL_FlareCIR_F", 50],
+	
+	// A2 Ammo Launcher
+	["MAWS Rocket", "mas_MAAW", 300],
+	["M136 Rocket", "mas_M136", 400],
+	["RPG7 AT Rocket", "mas_PG7V", 300],
+	["RPG7 HE Rocket", "mas_OG7", 150],
+	["RPG18 Rocket", "mas_PG18", 400],
+	["Stinger Missle", "mas_Stinger", 300],
+	["Strela Missle", "mas_Strela", 300],
+	
+	// A2 Ammo Rifles
+	["5.56mm x 39 30Rnd", "30Rnd_mas_545x39_mag", 15],	
+	["5.56mm x 39 30Rnd Tracer", "30Rnd_mas_545x39_T_mag", 20],
+	["5Rnd 762x51", "5Rnd_mas_762x51_Stanag", 20],
+	["5Rnd 762x51 Tracer", "5Rnd_mas_762x51_T_Stanag", 25],
+	["20Rnd 762x51", "20Rnd_mas_762x51_Stanag", 20],
+	["20Rnd 762x51 Tracer", "20Rnd_mas_762x51_T_Stanag", 25],
+	["5Rnd 127x99", "5Rnd_mas_127x99_Stanag", 50],
+	["100Rnd 762x51", "100Rnd_mas_762x51_Stanag", 50],
+	
+	// A2 Ammo Pistols
+	
+	
+	// A2 Ammo LMG
+	
+	
+	
 ];
 
 //Gun Store item List
