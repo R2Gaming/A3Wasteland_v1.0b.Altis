@@ -62,8 +62,6 @@ rifleArray = compileFinal str
 	["HK417", "srifle_mas_hk417", 2800],
 	["SR25", "srifle_mas_sr25", 2800],
 	["EBR", "srifle_mas_ebr", 2800],
-	["HK416", "srifle_mas_hk416", 2800],
-	["HK416 GL", "srifle_mas_hk416_gl", 2800],
 	["M4", "arifle_mas_m4", 2800],
 	["M4", "arifle_mas_m4_m203", 2800],
 	["M16", "arifle_mas_m16", 2800],
@@ -280,7 +278,7 @@ ammoArray = compileFinal str
 	["40mm 3Rnd Flares (IR)", "3Rnd_UGL_FlareCIR_F", 50],
 	
 	// A2 Ammo Launcher
-	["MAWS Rocket", "mas_MAAW", 300],
+	["MAWS Rocket", "mas_MAAWS", 300],
 	["M136 Rocket", "mas_M136", 400],
 	["RPG7 AT Rocket", "mas_PG7V", 300],
 	["RPG7 HE Rocket", "mas_OG7", 150],
@@ -298,6 +296,7 @@ ammoArray = compileFinal str
 	["5Rnd 127x99", "5Rnd_mas_127x99_Stanag", 50],
 	["100Rnd 762x51", "100Rnd_mas_762x51_Stanag", 50],
 	["30rnd 762x39", "30Rnd_mas_762x39_mag", 20],
+	["64Rnd 9x18", "64Rnd_mas_9x18_mag", 20],
 	
 	// A2 Ammo Pistols
 	["8Rnd 9x18", "8Rnd_mas_9x18_Mag", 10],
